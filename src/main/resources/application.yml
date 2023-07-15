@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /api
+  port: 5000
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://${URL_DATABASE}
+    username: ${HAKASE_USER}
+    password: ${HAKASE_PASSWORD}
+    pool-size: 30
